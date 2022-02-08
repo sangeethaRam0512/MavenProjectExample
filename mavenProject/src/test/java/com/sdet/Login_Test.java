@@ -21,7 +21,8 @@ public class Login_Test {
 		
 		// Assert.assertEquals(driver.getTitle(), "OrangeHRM");
 		 org.testng.Assert.assertEquals(driver.getTitle(), "OrangeHRM");
-		 
+		
+		 system.out.println("hi makkalee");
 		 driver.close();
 		
 	}
